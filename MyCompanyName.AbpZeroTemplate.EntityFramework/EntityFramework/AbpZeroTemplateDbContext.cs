@@ -7,6 +7,7 @@ using MyCompanyName.AbpZeroTemplate.Chat;
 using MyCompanyName.AbpZeroTemplate.Friendships;
 using MyCompanyName.AbpZeroTemplate.MultiTenancy;
 using MyCompanyName.AbpZeroTemplate.Storage;
+using MyCompanyName.AbpZeroTemplate.TaStudents;
 
 namespace MyCompanyName.AbpZeroTemplate.EntityFramework
 {
@@ -21,7 +22,9 @@ namespace MyCompanyName.AbpZeroTemplate.EntityFramework
     public class AbpZeroTemplateDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         /* Define an IDbSet for each entity of the application */
-
+        #region 学生表
+        public IDbSet<TaStudent> TaStudents { get; set; }
+        #endregion
         public virtual IDbSet<BinaryObject> BinaryObjects { get; set; }
 
         public virtual IDbSet<Friendship> Friendships { get; set; }

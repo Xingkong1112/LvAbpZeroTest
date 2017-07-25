@@ -202,6 +202,7 @@
     <Compile Include="Storage\DbBinaryObjectManager.cs" />
     <Compile Include="Storage\IBinaryObjectManager.cs" />
     <Compile Include="Storage\BinaryObject.cs" />
+    <Compile Include="TaStudents\TaStudent.cs" />
     <Compile Include="Timing\ITimeZoneService.cs" />
     <Compile Include="Timing\TimeZoneService.cs" />
     <Compile Include="Validation\ValidationHelper.cs" />

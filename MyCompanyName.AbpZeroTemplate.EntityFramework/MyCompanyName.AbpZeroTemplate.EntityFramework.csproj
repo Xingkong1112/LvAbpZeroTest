@@ -389,6 +389,10 @@
     <Compile Include="Migrations\201706200346086_Update_ABP_Migrations.Designer.cs">
       <DependentUpon>201706200346086_Update_ABP_Migrations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707250858107_Add_TaStudent_Entity.cs" />
+    <Compile Include="Migrations\201707250858107_Add_TaStudent_Entity.Designer.cs">
+      <DependentUpon>201707250858107_Add_TaStudent_Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="AbpZeroTemplateDataModule.cs" />
     <Compile Include="Migrations\Seed\Host\DefaultEditionCreator.cs" />
@@ -587,6 +591,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706200346086_Update_ABP_Migrations.resx">
       <DependentUpon>201706200346086_Update_ABP_Migrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707250858107_Add_TaStudent_Entity.resx">
+      <DependentUpon>201707250858107_Add_TaStudent_Entity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
